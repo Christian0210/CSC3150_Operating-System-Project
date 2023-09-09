@@ -1,0 +1,51 @@
+﻿  Compiling CUDA source file file_system.cu...
+  
+  G:\3150\CSC3150_A4>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x64" -x cu -rdc=true  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\file_system.cu.obj "G:\3150\CSC3150_A4\file_system.cu" 
+G:/3150/CSC3150_A4/file_system.cu(56): warning : integer conversion resulted in truncation
+  
+G:/3150/CSC3150_A4/file_system.cu(176): warning : integer conversion resulted in a change of sign
+  
+G:/3150/CSC3150_A4/file_system.cu(182): warning : integer conversion resulted in a change of sign
+  
+G:/3150/CSC3150_A4/file_system.cu(187): warning : integer conversion resulted in a change of sign
+  
+G:/3150/CSC3150_A4/file_system.cu(264): warning : integer conversion resulted in a change of sign
+  
+G:/3150/CSC3150_A4/file_system.cu(286): warning : missing return statement at end of non-void function "fs_write"
+  
+G:/3150/CSC3150_A4/file_system.cu(310): warning : integer conversion resulted in a change of sign
+  
+G:/3150/CSC3150_A4/file_system.cu(56): warning : integer conversion resulted in truncation
+  
+G:/3150/CSC3150_A4/file_system.cu(176): warning : integer conversion resulted in a change of sign
+  
+G:/3150/CSC3150_A4/file_system.cu(182): warning : integer conversion resulted in a change of sign
+  
+G:/3150/CSC3150_A4/file_system.cu(187): warning : integer conversion resulted in a change of sign
+  
+G:/3150/CSC3150_A4/file_system.cu(264): warning : integer conversion resulted in a change of sign
+  
+G:/3150/CSC3150_A4/file_system.cu(310): warning : integer conversion resulted in a change of sign
+  
+  file_system.cu
+  
+  G:\3150\CSC3150_A4>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin\nvcc.exe" -dlink -o x64\Debug\CSC3150_A4.device-link.obj -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /Zi /RTC1 /MDd " -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin/crt" -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\lib\x64" cudart_static.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib cudart.lib cudadevrt.lib  -gencode=arch=compute_52,code=sm_52 -G --machine 64 x64\Debug\file_system.cu.obj x64\Debug\main.cu.obj x64\Debug\user_program.cu.obj 
+  cudart_static.lib
+  kernel32.lib
+  user32.lib
+  gdi32.lib
+  winspool.lib
+  comdlg32.lib
+  advapi32.lib
+  shell32.lib
+  ole32.lib
+  oleaut32.lib
+  uuid.lib
+  odbc32.lib
+  odbccp32.lib
+  cudart.lib
+  cudadevrt.lib
+  file_system.cu.obj
+  main.cu.obj
+  user_program.cu.obj
+  CSC3150_A4.vcxproj -> G:\3150\CSC3150_A4\x64\Debug\CSC3150_A4.exe
